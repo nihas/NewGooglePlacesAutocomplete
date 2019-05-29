@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewGooglePlacesAutocomplete</string>
+
+    <string name="api_key" translatable="false">YOUR_API_KEY</string>
+</resources>
