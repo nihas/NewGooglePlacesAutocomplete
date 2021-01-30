@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
 
 
     fun Activity.hideKeyboard() {
-        hideKeyboard(if (currentFocus == null) View(this) else currentFocus)
+        if (currentFocus == null) View(this) else currentFocus?.let { hideKeyboard(it) }
     }
 
     fun Context.hideKeyboard(view: View) {
