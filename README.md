@@ -6,7 +6,7 @@ According to latest update you must create and enable a billing account of Googl
 
 After successful creation of billing account generate an API Key and associate it with the billing account you created.
 
-#Places SDK
+# Places SDK
 The Google Play Services version of the Places SDK for Android (in Google Play Services 16.0.0) is deprecated as of January 29, 2019, and will be turned off on July 29, 2019. And if you check under the google API console, it only have the PLACES API and there is nothing like PLACES SDK FOR ANDROID anymore.
 
 Migration guide to new places SDK client library can be found [here][sdk-migration]
