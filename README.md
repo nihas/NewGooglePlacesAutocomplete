@@ -1,5 +1,10 @@
 # New Google Places SDK for Android
 
+### Latest Update
+
+According to latest update you must create and enable a billing account of Google Maps Platform in Google Cloud Console. [CLICK HERE][google-billing]
+After successful creation of billing account generate an API Key and associate it with the billing account you created.
+
 The Google Play Services version of the Places SDK for Android (in Google Play Services 16.0.0) is deprecated as of January 29, 2019, and will be turned off on July 29, 2019. And if you check under the google API console, it only have the PLACES API and there is nothing like PLACES SDK FOR ANDROID anymore.
 
 Migration guide to new places SDK client library can be found [here][sdk-migration]
@@ -16,7 +21,7 @@ To get started, your app needs to meet two requirements:
 ### Dependencies used
 Add a dependency for the new SDK client library to your app-level build.gradle:
 
-    implementation 'com.google.android.libraries.places:places:1.0.0'
+    implementation 'com.google.android.libraries.places:places:2.4.0'
 
 ## Screen Shots
 <img src="./images/1.jpeg" width=“400”/>
@@ -26,3 +31,4 @@ Add a dependency for the new SDK client library to your app-level build.gradle:
 [simple-google]: <https://github.com/googlemaps/android-places-demos>
 [console-google]: <https://console.cloud.google.com>
 [sdk-migration]: <https://developers.google.com/places/android-sdk/client-migration>
+[google-billing]: <https://console.cloud.google.com/billing>
