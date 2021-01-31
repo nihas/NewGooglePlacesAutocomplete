@@ -80,7 +80,7 @@ class AutoCompleteAdapter(context: Context, var placesClient: PlacesClient) : Ar
                 return results
             }
 
-            override fun publishResults(charSequence: CharSequence, results: Filter.FilterResults?) {
+            override fun publishResults(charSequence: CharSequence?, results: Filter.FilterResults?) {
 
                 if (results != null && results.count > 0) {
                     // The API returned at least one result, update the data.
